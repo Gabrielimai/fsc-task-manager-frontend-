@@ -3,7 +3,7 @@ import Tasks from "../components/Tasks";
 
 import "./Home.scss";
 
-const nome = "Gabriel";
+
 
 const Home = () => {
     return (
@@ -11,7 +11,7 @@ const Home = () => {
             <Sidebar />
             <Tasks />
 
-            <div>{nome}</div>
+           
         </div>
     );
 };
